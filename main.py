@@ -17,7 +17,7 @@ while True:
         import rus_local as lc
 
         break
-    print('Choose language/ Выберите язык./n1) Englishs/ Английский язык;\n2) '
+    print('Choose language/ Выберите язык.\n1) Englishs/ Английский язык;\n2) '
           'Russian/ Русский язык.')
     language = input('Input number/ Введите цифру: ')
 
@@ -135,16 +135,16 @@ def main():
             id = input(lc.TXT_INPUT_ID)
             id_info(id)
         elif number == '2':
-            isbn = input()
+            isbn = input(lc.TXT_INPUT_ISBN)
             isbn_info(isbn)
         elif number == '3':
             year = input(lc.TXT_INPUT_YEAR)
-            count_same_years(year)
+            print(count_same_years(year))
         elif number == '4':
             average_price()
         elif number == '5':
             year = input(lc.TXT_INPUT_YEAR)
-            publisher = input()
+            publisher = input(lc.TXT_PUSBLISH_TITLE)
             the_most_expensive(publisher, year)
         elif number == '6':
             exit()

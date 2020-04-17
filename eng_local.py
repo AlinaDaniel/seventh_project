@@ -3,7 +3,7 @@
 TXT_INCORRECT_DATA = 'The data entered is incorrect.'
 TXT_ERROR = 'Error. The year of publication and / or name of the publisher is incorrect. '
 TXT_NUMBER_ERROR = 'Error. Try again.'
-TXT_MENU = '''WHICH TASK DO YOU WANT TO DECIDE?
+TXT_MENU = '''WHICH TASK DO YOU WANT TO CHOOSE?
          1. Display full information on the id of the book.
          2. Display full information about the book on ISBN.
          3. Count the number of books for a given year of publication.
